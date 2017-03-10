@@ -1,4 +1,6 @@
 # simple-postgres
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/devTristan/simple-postgres.svg)](https://greenkeeper.io/)
 a minimal postgres interface for node
 
 ```console
