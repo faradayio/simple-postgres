@@ -1,6 +1,6 @@
 {
-  "name": "simple-postgres",
-  "version": "2.1.0",
+  "name": "@fdy/simple-postgres",
+  "version": "3.0.0",
   "description": "a minimal postgres interface for node",
   "main": "src/index.js",
   "keywords": [
@@ -10,7 +10,10 @@
     "postgresql",
     "database"
   ],
-  "author": "Madeline Davies <npm@madd.tech>",
+  "contributors": [
+    "Madeline Davies <npm@madd.tech>",
+    "Nicholas Husher <nhusher@gmail.com>"
+  ],
   "license": "MIT",
   "dependencies": {
     "find-root": "^1.1.0",
