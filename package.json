@@ -35,7 +35,7 @@
     "lint": "eslint src/**/*.ts test/**/*.ts",
     "prepublishOnly": "rm -rf dist && npm run build",
     "test-helper": "NODE_ENV=test ts-node test/test.ts",
-    "test": "docker-compose run test",
+    "test": "docker compose run test",
     "cover": "npm run build && NODE_ENV=test c8 -x dist/test/ --check-coverage --lines=98 -r text -r html node dist/test/test.js"
   },
   "devDependencies": {
